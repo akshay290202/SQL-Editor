@@ -54,8 +54,17 @@ Detailed screenshots showing the results from Lighthouse and GTMetrix are availa
   
 ### Screenshots
 ![Screenshot 2025-03-29 125552](https://github.com/user-attachments/assets/262278fa-31a7-4681-8a0d-3a9d3d1c3062)
+
 The landing page is a clean and modern interface for a web-based SQL Editor branded with Atlan. At the top, there's a navigation bar featuring the Atlan logo on the left and links to Home, SQL Editor, Contact Us, and GitHub on the right, all styled in a sleek blue theme. The main hero section grabs attention with a bold headline that reads "SQL Editor - Query Made Easy," followed by a subheading in blue that promotes faster and more efficient SQL query writing. A prominent call-to-action button labeled "Lets Begin" invites users to get started, styled with a border that mimics a code editor’s aesthetic. The background features abstract wave-like blue gradients, adding a tech-savvy and visually appealing touch. At the bottom, the footer includes a personalized note saying, “Developed with ♥ by Akshay for atlan,” subtly reinforcing the brand and the creator’s contribution.
+
+
 ![Screenshot 2025-03-29 125604](https://github.com/user-attachments/assets/5d33c08a-f2c5-491c-ac76-c1a83f97c4a3)
+
 The SQL Editor interface is designed with a user-friendly layout that supports efficient SQL query execution. On the left, there's a panel titled "Queries Available" containing pre-written SQL queries and a search bar to quickly locate them. Below it, a "Query History" section keeps track of executed queries for easy reuse. The central focus is the dark-themed code editor where users can write or edit SQL statements. To the right of the editor are three action buttons: a blue **Run** button to execute queries, a **Save** button to store them, and a red **Clear** button to reset the editor. A helpful note below the editor prompts users to click on a saved query to begin. At the bottom, a playful message reads, “Run Something & Your Output Shall Appear!”, encouraging user interaction. The design is clean and intuitive, ideal for beginners and experienced users alike.
+
+
 ![Screenshot 2025-03-29 125624](https://github.com/user-attachments/assets/4a27aa5b-1944-42af-b9e5-f6b3397f8237)
 The screenshot displays the **Output view** of the SQL Editor in the Atlan platform. On the left, there's a sidebar featuring a list of available queries and a query history section, both equipped with search functionality. The main section shows the result of the executed SQL query `SELECT * FROM internetData;`, returning 289 rows in 0.03 seconds. The data is presented in a clean, scrollable table format with columns like `id`, `first_name`, `last_name`, `email`, `gender`, and `ip_address`. Above the table, there are tabs for toggling between "Output" and "Table Data," and a button labeled “Export” for downloading results. The interface is user-friendly, with clearly labeled sections, making it easy to navigate and analyze query outputs.
+
+
+Thank you !!!!

@@ -19,9 +19,9 @@ const Navbar = () => {
                link: "/",
           },
           {
-               title: "About",
-               link: '/',
-          }
+               title: "Github",
+               link: "https://github.com/akshay290202/SQL-Editor.git",
+          },
      ];
 
      const handleClick = () => {
@@ -37,14 +37,27 @@ const Navbar = () => {
                     <ul className={`nav-links`}>
                          {links.map((link, index) => {
                               return (
+
                                    <li className='nav-link-original'>
-                                        <div
-                                             className='nav-link-original'
-                                             onClick={() => navigate(link.link)}
-                                             key={index}
-                                        >
-                                             {link.title}
-                                        </div>
+                                        {
+                                             link.title == 'Github' ? (
+                                                  <a
+                                                       className='nav-link-original'
+                                                       href={link.link}
+                                                       key={index}
+                                                  >
+                                                       {link.title}
+                                                  </a>
+                                             ) : (
+                                                  <div
+                                                       className='nav-link-original'
+                                                       onClick={() => navigate(link.link)}
+                                                       key={index}
+                                                  >
+                                                       {link.title}
+                                                  </div>
+                                             )
+                                        }
                                         <div className='underline'></div>
                                    </li>
                               );

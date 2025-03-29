@@ -51,6 +51,20 @@ Detailed screenshots showing the results from Lighthouse and GTMetrix are availa
    - Only essential dependencies are included.
    - Reusable components are modularized to promote DRY principles.
    - Code structure is optimized to avoid unnecessary imports and improve maintainability.
+
+### Tech Stack used:
+1. CodeMirror - Used to integrate a powerful, customizable code editor into a React app. commands enables editor actions like undo/redo, lang-sql provides SQL syntax highlighting, state manages the editor's configuration and document content, theme-one-dark applies a dark theme, view handles rendering and interactions, and uiw/react-codemirror wraps everything into a React component for seamless integration.
+
+2. Antd – A React UI library used for notification alerts to the user.
+
+3. Bootstrap – CSS framework used for responsive layout and quick styling using grid systems and utility classes.
+
+4. font-awesome – Icon library used to add scalable vector icons to the UI, like buttons and menus.
+
+5. React – Core library for building component-based user interfaces.
+
+6. React-CSV – Allows exporting data from the app as downloadable CSV files, useful in data-driven apps.
+
   
 ### Screenshots
 ![Screenshot 2025-03-29 125552](https://github.com/user-attachments/assets/262278fa-31a7-4681-8a0d-3a9d3d1c3062)

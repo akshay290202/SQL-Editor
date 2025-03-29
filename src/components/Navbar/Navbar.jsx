@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+
 import "./Navbar.css";
 import logo from '../../../public/logo.svg';
 import { useNavigate } from "react-router-dom";
@@ -19,9 +19,9 @@ const Navbar = () => {
                link: "/",
           },
           {
-               title: "Github",
-               link: "https://github.com/akshay290202/SQL-Editor.git",
-          },
+               title: "About",
+               link: '/',
+          }
      ];
 
      const handleClick = () => {
@@ -38,14 +38,13 @@ const Navbar = () => {
                          {links.map((link, index) => {
                               return (
                                    <li className='nav-link-original'>
-                                        <a
+                                        <div
                                              className='nav-link-original'
-                                             href={link.link}
+                                             onClick={() => navigate(link.link)}
                                              key={index}
-                                             onClick={() => setMenuOpen(false)}
                                         >
                                              {link.title}
-                                        </a>
+                                        </div>
                                         <div className='underline'></div>
                                    </li>
                               );

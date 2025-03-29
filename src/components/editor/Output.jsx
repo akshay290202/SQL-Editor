@@ -15,6 +15,7 @@ const Output = () => {
       message: 'Data Exported Successful',
       description:
         'The data is sucessfully exported in CSV format.',
+      duration: 3,
     });
   };
 

@@ -13,7 +13,8 @@ const EditorPanel = () => {
     if (query.trim() === "") {
       api['error']({
         message: "Error",
-        description: "Oops, that was a Null Query.Please type another query, or select from the ones previously saved."
+        description: "Oops, that was a Null Query.Please type another query, or select from the ones previously saved.",
+        duration: 3,
       })
       return;
     }
@@ -32,7 +33,8 @@ const EditorPanel = () => {
     else {
       api['info']({
         message: "Note:",
-        description: "Please try the test query."
+        description: "Please try the test query.",
+        duration: 3,
       });
     }
     setQueryHistory((prev) => ({
@@ -45,6 +47,7 @@ const EditorPanel = () => {
     if (query.trim() === "") {
       api['error']({
         message: "Query can't be null",
+        duration: 3,
       })
       return;
     }
